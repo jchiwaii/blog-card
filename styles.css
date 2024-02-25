@@ -20,7 +20,7 @@ body {
   flex-direction: column;
   width: 28.125rem;
   height: 37.5rem;
-  margin: 4.375rem auto;
+  margin: 3.6rem auto;
   border: 0.125rem solid var(--color-black-700);
   border-radius: 1.25rem;
   box-shadow: 0.5rem 0.375rem 0.125rem hsl(0, 0%, 7%);
