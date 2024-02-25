@@ -4,27 +4,75 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
+  overflow: hidden;
 }
 
 .content-container {
   background-color: hsl(0, 0%, 100%);
   display: flex;
   flex-direction: column;
-  width: 430px;
-  height: 580px;
+  width: 450px;
+  height: 600px;
   margin: 70px auto;
   border: 2px solid hsl(0, 0%, 7%);
   border-radius: 20px;
+  box-shadow: 8px 6px 2px hsl(0, 0%, 7%);
 }
 
 .card {
   padding: 20px;
   object-fit: cover;
-  border: 2px transparent;
-  border-radius: 8px;
-  overflow: hidden;
+  border-radius: 30px;
 }
 
 .main-content {
   padding-left: 20px;
+  width: 370px;
+}
+
+.first-para {
+    display: flex;
+    margin-top: 0;
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+    width: 70px;
+    justify-content: space-around;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.second-para {
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.main-heading {
+    font-weight: 800;
+    width: 700px;
+    margin-top: 0;
+}
+
+.third-para {
+    color: hsl(0, 0%, 50%);
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.social-media {
+  display: flex;
+  width: 200px;
+}
+
+.avatar {
+    width: 50px;
+    object-fit: cover;
+}
+
+.name-image {
+    padding-left: 20px;
+    font-weight: 800;
+}
+
+.attribution {
+    margin: 0 auto;
 }
